@@ -1,3 +1,10 @@
+# About this Website:
+1. This is Online Technology courses based application.
+2. Here I used specially react router associated with components.
+3. I also added fixed header and footer every route path and also error page handled.
+4. Here is my live site link: https://online-technology-courses.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
