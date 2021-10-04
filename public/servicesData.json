@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Information Technology",
         "price": 200,
         "img": "https://iacite.org/wp-content/uploads/2019/08/Computer-Engineering-and-IT-Engineering.jpg",
@@ -7,13 +8,15 @@
         "duration": "5 months"
     },
     {
+        "id": 2,
         "name": "Computer Science Intro",
         "price": 230,
-        "img": "https://www.insidehighered.com/sites/default/server_files/media/laptop-cloud-storage-shared-access-isometric-vector-id1063730694_0.jpg",
+        "img": "https://images2.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg",
         "date": "Started on November 15,2021",
         "duration": "6 month"
     },
     {
+        "id": 3,
         "name": "Network & Cuber Security",
         "price": 220,
         "img": "https://wwwcdn.frost.com/wp-content/uploads/2020/10/cybersecurity-TIP-1080x675.jpg",
@@ -21,6 +24,7 @@
         "duration": "5 month"
     },
     {
+        "id": 4,
         "name": "Electrical Engineering",
         "price": 230,
         "img": "https://storage-prtl-co.imgix.net/mp/9ce395a5.jpg?w=420&h=310&auto=format,compress&q=40",
@@ -28,6 +32,7 @@
         "duration": "8 month"
     },
     {
+        "id": 5,
         "name": "Web Development",
         "price": 190,
         "img": "https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg",
@@ -35,6 +40,7 @@
         "duration": "5 month"
     },
     {
+        "id": 6,
         "name": "Data Science",
         "price": 300,
         "img": "https://www.iimtindia.net/Blog/wp-content/uploads/2021/06/Data-Science.jpg",

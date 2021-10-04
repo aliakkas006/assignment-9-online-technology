@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <nav className="mb-5">
-            <Navbar bg="light" expand="lg">
-                <Container>
+            <Navbar bg="dark" expand="lg">
+                <Container className="p-5">
 
-                    <Navbar.Brand href="#home">Online Technology</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="text-white fs-1">Online Technology</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
 
@@ -20,7 +20,7 @@ const Header = () => {
                                     fontWeight: "bold",
                                     color: "red"
                                 }}
-                                className="ms-5"
+                                className="text-decoration-none ms-5 fs-4"
                             >
                                 Home
                             </NavLink>
@@ -31,7 +31,7 @@ const Header = () => {
                                     fontWeight: "bold",
                                     color: "red"
                                 }}
-                                className="ms-5"
+                                className="text-decoration-none ms-5 fs-4"
                             >
                                 Courses
                             </NavLink>
@@ -42,7 +42,7 @@ const Header = () => {
                                     fontWeight: "bold",
                                     color: "red"
                                 }}
-                                className="ms-5"
+                                className="text-decoration-none ms-5 fs-4"
                             >
                                 Teachers
                             </NavLink>
@@ -53,7 +53,7 @@ const Header = () => {
                                     fontWeight: "bold",
                                     color: "red"
                                 }}
-                                className="ms-5"
+                                className="text-decoration-none ms-5 fs-4"
                             >
                                 About us
                             </NavLink>
