@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Card, Col, Button } from 'react-bootstrap';
 
 const CourseDetails = (props) => {
     const { name, price, img, date, duration } = props.course;
@@ -15,6 +15,7 @@ const CourseDetails = (props) => {
                         <p className="fw-light text-white"> {duration} </p>
                         <h2 className="text-warning">Price: ${price}</h2>
                     </Card.Text>
+                    <Button variant="outline-info" size="sm">Buy now! </Button>
                 </Card.Body>
             </Card>
         </Col>

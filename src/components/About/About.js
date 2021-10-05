@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const About = () => {
     return (
@@ -9,6 +10,7 @@ const About = () => {
             <p>Since 2009</p>
             <p>Author: Ali Akkas</p>
             <p>Email: ajfa@gmail.com</p>
+            <Button variant="outline-info" size="sm">Contact us! </Button>
         </div>
     );
 };

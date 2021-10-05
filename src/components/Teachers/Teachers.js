@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row, Button } from 'react-bootstrap';
 
 const Teachers = () => {
     return (
@@ -14,6 +14,7 @@ const Teachers = () => {
                             <Card.Text className="text-white">
                                 Teaching at Computer Science
                             </Card.Text>
+                            <Button variant="outline-info" size="sm">Contact now! </Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -26,6 +27,7 @@ const Teachers = () => {
                             <Card.Text className="text-white">
                                 Teaching at Arttificial Intelligence
                             </Card.Text>
+                            <Button variant="outline-info" size="sm">Contact now! </Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -38,6 +40,7 @@ const Teachers = () => {
                             <Card.Text className="text-white">
                                 Teaching at Software Development
                             </Card.Text>
+                            <Button variant="outline-info" size="sm">Contact now! </Button>
                         </Card.Body>
                     </Card>
                 </Col>

@@ -58,6 +58,8 @@ const Header = () => {
                                 About us
                             </NavLink>
 
+                            <h4><i class="fas fa-shopping-cart text-warning ms-5"></i></h4>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
